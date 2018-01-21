@@ -30,10 +30,3 @@ print(type(y4))
 
 text = ('The value of x is', y1)
 print(text)
-
-echo "# HPM573S18_Pokutnaya_HW1"
-git init
-git add README.md
-git commit
-git remote add origin https://github.com/dasha-pokutnaya/HPM573S18_Pokutnaya_HW1.git
-git push
