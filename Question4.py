@@ -20,9 +20,9 @@
     print(ours1)
     print(ours2)
 
-# In our1, the + operation adds each element to the list. The lenght of the list will increase by however many elements
+# In ours1, the + operation adds each element to the list. The length of the list will increase by however many elements
 # were in the argument. In this case, 3.
-# In our2, the append operation adds its argument as a single element to the end of a list.
+# In ours2, the append operation adds its argument as a single element to the end of a list.
 # Thus, the length of the list itself will increase by one.
 
 # 2. Change the second element of yours to something else and again print ours1 and ours2.
@@ -32,4 +32,5 @@
     print(ours2)
 
 # Explain why changing yours would change ours2 but not ours1.
-# Because of the order of the code.
+# It depends on the order of the code. yours[2] creates a copy of yours and changes the second element. The ours1
+# code does not get changed because the code came before.
